@@ -1,0 +1,12 @@
+name: py3dtiles_env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+    - py3dtiles>=11.0.0
+    - laspy[lazrs,laszip]>=2.5
+    - pyproj>=3.6
+
